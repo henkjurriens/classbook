@@ -9,11 +9,7 @@ const routes: Routes = [
     children: [
       {
         path: 'classmates',
-        loadChildren: () => import('../classmates/classmates.module').then(m => m.ClassmatesPageModule)
-      },
-      {
-        path: 'classmate/:id',
-        loadChildren: () => import('../classmate/classmate.module').then(m => m.ClassmatePageModule)
+        loadChildren: () => import('../classmates/classmates.module').then(m => m.Tab1PageModule)
       }
     ]
   },

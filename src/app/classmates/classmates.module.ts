@@ -17,4 +17,4 @@ import { Tab1PageRoutingModule } from './classmates-routing.module';
   ],
   declarations: [ClassmatesPage]
 })
-export class ClassmatesPageModule {}
+export class Tab1PageModule {}
